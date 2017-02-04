@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/realtive">
+    <include layout="@layout/toolbar"/>
+
+
+    <com.imdanggui.util.SlidingTabLayout
+        android:id="@+id/tabHost"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/toolbar"
+        android:background="@color/post2"
+
+        />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tabHost" />
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/ppp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:background="@color/whitegray"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:weightSum="100"
+            android:orientation="horizontal"
+            android:id="@+id/posting"
+            android:background="@drawable/btn_bg_selector_left"
+            android:clickable="true"
+            >
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="100"
+                android:orientation="horizontal"
+                android:weightSum="100"
+
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="35"
+                    />
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_marginTop="2dp"
+                    android:layout_height="17dp"
+                    android:background="@drawable/icon_write"
+                    />
+                <TextView
+                    android:textSize="15sp"
+                    android:textAlignment="center"
+                    android:text="한 줄 글쓰기"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_width="0dp"
+                    android:layout_weight="40"
+                    android:layout_height="50dp"
+                    android:layout_gravity="bottom"
+                    android:padding="0dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

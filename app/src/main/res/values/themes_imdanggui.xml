@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="Imdanggui" parent="@style/_Imdanggui"/>
+
+  <style name="_Imdanggui" parent="Theme.AppCompat.Light.NoActionBar">
+
+    <item name="colorControlActivated">#ffcc00</item>
+    <item name="colorControlHighlight">#ffcc00</item>
+    <item name="colorControlNormal">@color/material_blue_grey_800</item>
+    <item name="colorSwitchThumbNormal">@color/material_blue_grey_800</item>
+    <item name="colorButtonNormal">@color/material_blue_grey_800</item>
+
+    <item name="android:textViewStyle">@style/TextViewImdanggui</item>
+    <item name="android:editTextStyle">@style/EditTextImdanggui</item>
+
+    <item name="android:textColorHighlight">#99cc0000</item>
+
+    <item name="android:checkboxStyle">@style/CheckBoxImdanggui</item>
+
+    <item name="android:radioButtonStyle">@style/RadioButtonImdanggui</item>
+
+    <item name="android:buttonStyle">@style/ButtonImdanggui</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonImdanggui</item>
+
+    <item name="android:spinnerStyle">@style/SpinnerImdanggui</item>
+
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemImdanggui</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleImdanggui</item>
+
+    <item name="android:listViewStyle">@style/ListViewImdanggui</item>
+
+    <item name="android:listViewWhiteStyle">@style/ListViewImdanggui.White</item>
+
+    <item name="android:spinnerItemStyle">@style/SpinnerItemImdanggui</item>
+
+  </style>
+
+</resources>

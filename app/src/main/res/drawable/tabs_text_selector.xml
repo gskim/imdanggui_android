@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <!--선택된상태 , 포커스 안된상태 , 프레스 안된상태-->
+        <item android:state_selected="true" android:state_focused="false"
+            android:state_pressed="false"  />
+        <!--선택 안된상태 , 포커스 안된상태 , 프레스 안된상태-->
+        <item android:state_selected="false" android:state_focused="false"
+            android:state_pressed="false"  />
+        <!--프레스 된 상태-->
+        <item android:state_pressed="true" android:drawable="@android:color/transparent" />
+        <!--포커스 되어있는상태 , 선택되어있는 상태 ,  프레스 안된상태-->
+        <item android:state_focused="true" android:state_selected="true"
+            android:state_pressed="false" android:drawable="@android:color/transparent" />
+    </selector>
+</selector>

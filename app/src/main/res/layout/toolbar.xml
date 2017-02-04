@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/btn_no_rounded"
+    >
+    <ImageView
+        android:id="@+id/top_logo"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:src="@drawable/logo_top_w1"
+        android:layout_gravity="center_horizontal"
+        android:paddingRight="15dp"
+        android:visibility="gone"
+        />
+
+    </android.support.v7.widget.Toolbar>

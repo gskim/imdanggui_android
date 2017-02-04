@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    >
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="18"
+        />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="18"
+        android:orientation="vertical"
+        android:weightSum="100"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            />
+        <ImageView
+            android:id="@+id/tab1"
+            android:layout_weight="90"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/tab_02_w"
+            android:layout_gravity="center"
+
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="60"
+        android:weightSum="100"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            />
+        <TextView
+            android:id="@+id/tab1_tv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="86"
+            android:text="임당귀"
+            android:textStyle="bold"
+            android:textColor="@color/unselect_tab_icon"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

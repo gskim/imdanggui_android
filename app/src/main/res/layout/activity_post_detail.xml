@@ -1,0 +1,70 @@
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/container"
+    tools:context="com.imdanggui.PostDetailActivity">
+    <include layout="@layout/toolbar_back"/>
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/post2"
+        android:layout_marginBottom="48dp"
+        android:layout_marginTop="50dp"
+        >
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/whitegray"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="48dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom"
+        android:weightSum="10"
+        android:background="@color/tab_back_unselected"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        >
+        <EditText
+            android:id="@+id/reply_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:inputType="textMultiLine"
+            android:hint="댓글을 입력해주세요."
+            android:maxLength="100"
+            android:paddingLeft="6dp"
+            />
+        <TextView
+            android:id="@+id/reply_send"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="댓글"
+            android:textColor="@color/selected_tab_icon"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@android:drawable/list_selector_background"
+            android:clickable="true"
+            android:focusable="true"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>
+

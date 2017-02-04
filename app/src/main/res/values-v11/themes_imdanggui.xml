@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="Imdanggui" parent="@style/_Imdanggui"/>
+
+  <style name="_Imdanggui" parent="Theme.AppCompat.Light.NoActionBar">
+
+    <item name="android:editTextBackground">@drawable/imdanggui_edit_text_holo_light</item>
+    <item name="colorControlActivated">#ffcc00</item>
+    <item name="colorControlHighlight">@color/material_blue_grey_800</item>
+    <item name="colorControlNormal">@color/material_blue_grey_800</item>
+    <item name="colorSwitchThumbNormal">@color/material_blue_grey_800</item>
+    <item name="colorButtonNormal">@color/material_blue_grey_800</item>
+
+    <item name="android:textViewStyle">@style/TextViewImdanggui</item>
+
+    <item name="android:textColorHighlight">#99cc0000</item>
+    <item name="android:textSelectHandleLeft">@drawable/imdanggui_text_select_handle_left</item>
+    <item name="android:textSelectHandleRight">@drawable/imdanggui_text_select_handle_right</item>
+    <item name="android:textSelectHandle">@drawable/imdanggui_text_select_handle_middle</item>
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/imdanggui_btn_check_holo_light</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/imdanggui_btn_radio_holo_light</item>
+
+    <item name="android:buttonStyle">@style/ButtonImdanggui</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonImdanggui</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerImdanggui</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleImdanggui</item>
+
+    <item name="android:listChoiceBackgroundIndicator">@drawable/imdanggui_list_selector_holo_light</item>
+
+    <item name="android:activatedBackgroundIndicator">@drawable/imdanggui_activated_background_holo_light</item>
+
+  </style>
+
+</resources>

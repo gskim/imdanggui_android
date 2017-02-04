@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <style name="TextViewImdanggui" parent="android:Widget.TextView">
+
+    </style>
+  <style name="ButtonImdanggui" parent="android:Widget.Holo.Light.Button">
+	  <item name="android:background">@drawable/imdanggui_btn_default_holo_light</item>
+  </style>
+
+  <style name="ImageButtonImdanggui" parent="android:Widget.Holo.Light.ImageButton">
+	  <item name="android:background">@drawable/imdanggui_btn_default_holo_light</item>
+  </style>
+
+  <style name="SpinnerImdanggui" parent="android:Widget.Holo.Light.Spinner">
+      <item name="android:background">@drawable/imdanggui_spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/imdanggui_list_selector_holo_light</item>
+  </style>
+
+  <style name="ToggleImdanggui" parent="android:Widget.Holo.Light.Button.Toggle">
+      <item name="android:background">@drawable/imdanggui_btn_toggle_holo_light</item>
+  </style>
+
+</resources>

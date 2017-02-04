@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="TextViewImdanggui" parent="android:Widget.TextView">
+
+    </style>
+
+  <style name="EditTextImdanggui" parent="android:Widget.EditText">
+	  <item name="android:background">@drawable/imdanggui_edit_text_holo_light</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="CheckBoxImdanggui" parent="android:Widget.CompoundButton.CheckBox">
+      <item name="android:button">@drawable/imdanggui_btn_check_holo_light</item>
+  </style>
+
+  <style name="RadioButtonImdanggui" parent="android:Widget.CompoundButton.RadioButton">
+      <item name="android:button">@drawable/imdanggui_btn_radio_holo_light</item>
+  </style>
+
+  <style name="ButtonImdanggui" parent="android:Widget.Button">
+	  <item name="android:background">@drawable/imdanggui_btn_default_holo_light</item>
+	  <item name="android:minHeight">48dip</item>
+	  <item name="android:minWidth">64dip</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="ImageButtonImdanggui" parent="android:Widget.ImageButton">
+	  <item name="android:background">@drawable/imdanggui_btn_default_holo_light</item>
+  </style>
+
+  <style name="SpinnerImdanggui" parent="android:Widget.Spinner">
+      <item name="android:background">@drawable/imdanggui_spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/imdanggui_list_selector_holo_light</item>
+  </style>
+
+  <style name="SpinnerDropDownItemImdanggui" parent="android:Widget.DropDownItem.Spinner">
+      <item name="android:checkMark">@drawable/imdanggui_btn_radio_holo_light</item>
+  </style>
+  <style name="TabImdanggui">
+      <item name="android:gravity">center_horizontal</item>
+      <item name="android:paddingLeft">16dip</item>
+      <item name="android:paddingRight">16dip</item>
+      <item name="android:background">@drawable/imdanggui_tab_indicator_holo</item>
+      <item name="android:layout_width">0dip</item>
+      <item name="android:layout_weight">1</item>
+      <item name="android:minWidth">80dip</item>
+  </style>
+
+  <style name="TabTextImdanggui">
+	  <item name="android:textColor">#000000</item>
+      <item name="android:textSize">12sp</item>
+      <item name="android:textStyle">bold</item>
+      <!-- v14 <item name="android:textAllCaps">true</item> -->
+      <item name="android:ellipsize">marquee</item>
+      <item name="android:maxLines">2</item>
+      <item name="android:maxWidth">180dip</item>
+  </style>
+
+  <style name="ToggleImdanggui" parent="android:Widget.Button.Toggle">
+      <item name="android:background">@drawable/imdanggui_btn_toggle_holo_light</item>
+      <item name="android:minHeight">48dip</item>
+	  <item name="android:textColor">#000000</item>
+  </style>
+
+  <style name="ListViewImdanggui" parent="android:Widget.ListView">
+      <item name="android:listSelector">@drawable/imdanggui_list_selector_holo_light</item>
+  </style>
+
+  <style name="ListViewImdanggui.White" parent="android:Widget.ListView.White">
+      <item name="android:listSelector">@drawable/imdanggui_list_selector_holo_light</item>
+  </style>
+
+  <style name="SpinnerItemImdanggui" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+      <item name="android:textColor">#000000</item>
+  </style>
+
+
+</resources>

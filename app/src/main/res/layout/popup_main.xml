@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/popup_element"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tab_back_selected"
+    >
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/img_popup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/whitegray"
+        fresco:roundingBorderWidth="0.5dp"
+        fresco:roundingBorderColor="@color/whitegray"
+        android:padding="0.5dp"
+        fresco:roundedCornerRadius="5dp"
+        />
+    <Button
+        android:id="@+id/btn_clost_popup"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:text="확 인"
+        android:background="@drawable/btn_bg_selector_yellow"
+        android:textColor="@color/selected_tab_icon"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+    </Button>
+
+</RelativeLayout>

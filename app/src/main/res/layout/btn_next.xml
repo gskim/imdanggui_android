@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button
+    android:layout_width="match_parent"
+    android:text="임당귀 시작하기"
+    android:textColor="@color/tab_back_unselected"
+    android:textStyle="bold"
+    android:layout_height="56dp"
+    android:background="@color/selected_tab_icon"
+    android:elevation="4dp"
+    android:layout_gravity="bottom"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/btnnext"
+    />
